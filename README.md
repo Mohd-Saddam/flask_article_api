@@ -32,7 +32,7 @@ Run project:
 
 
 
-If you want run test cases:
+If you want run test cases using below command:
     python -m unittest discover -s tests -p 'test_*.py'
 
 
