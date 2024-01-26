@@ -16,8 +16,7 @@
 3. Navigate to the directory where the project is located.
     ```bash: 
         cd flask_article_api
-4. Create a virtual environment 
-    To install virtualenv if not installed
+4. Create a virtual environment. To install virtualenv if not installed
     ```bash: 
         pip install virtualenv
 5. After  installed virtualenv library
