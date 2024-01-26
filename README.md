@@ -38,8 +38,16 @@
 
 
 
-10. If you want run test cases using below command:
+10. If you want run test cases using below command
     ```bash: 
         python -m unittest discover -s tests -p 'test_*.py'
+
+11. Run your tests with coverage
+    ```bash: 
+        coverage run -m unittest discover -s tests -p 'test_*.py'
+12. Generate a coverage report
+    ```bash: 
+        coverage report
+
 
 
