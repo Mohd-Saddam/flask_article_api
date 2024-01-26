@@ -14,25 +14,33 @@
 
 
 3. Navigate to the directory where the project is located.
-    cd flask_article_api
+    ```bash: 
+        cd flask_article_api
 4. Create a virtual environment 
     To install virtualenv if not installed
+    ```bash: 
         pip install virtualenv
-    Create a virtual environment after installed virtualenv library
+    after  installed virtualenv library
+    ```bash: 
         python -m venv venv
-On Windows:
-    .\venv\Scripts\activate
+5. On Windows:
+    ```bash: 
+        .\venv\Scripts\activate
 
-On macOS/Linux:
-    source venv/bin/activate
-Install dependencies:
-  pip install -r requirements.txt
-Run project:
- python main.py
+6. On macOS/Linux:
+    ```bash: 
+        source venv/bin/activate
+7. Install dependencies:
+    ```bash: 
+        pip install -r requirements.txt
+8. Run project:
+    ```bash: 
+        python main.py
 
 
 
-If you want run test cases using below command:
-    python -m unittest discover -s tests -p 'test_*.py'
+9. If you want run test cases using below command:
+    ```bash: 
+        python -m unittest discover -s tests -p 'test_*.py'
 
 
