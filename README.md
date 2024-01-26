@@ -20,26 +20,26 @@
     To install virtualenv if not installed
     ```bash: 
         pip install virtualenv
-    after  installed virtualenv library
+5. After  installed virtualenv library
     ```bash: 
-        python -m venv venv
-5. On Windows:
+            python -m venv venv
+6. On Windows:
     ```bash: 
         .\venv\Scripts\activate
 
-6. On macOS/Linux:
+7. On macOS/Linux:
     ```bash: 
         source venv/bin/activate
-7. Install dependencies:
+8. Install dependencies:
     ```bash: 
         pip install -r requirements.txt
-8. Run project:
+9. Run project:
     ```bash: 
         python main.py
 
 
 
-9. If you want run test cases using below command:
+10. If you want run test cases using below command:
     ```bash: 
         python -m unittest discover -s tests -p 'test_*.py'
 
